@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://htmlstream.com/preview/front-v2.3.0/assets/vendor/font-awesome/css/fontawesome-all.min.css");
+@import url("https://htmlstream.com/preview/front-v2.3.0/assets/vendor/animate.css/animate.min.css");
+@import url("https://htmlstream.com/preview/front-v2.3.0/assets/vendor/slick-carousel/slick/slick.css");
+@import url("https://htmlstream.com/preview/front-v2.3.0/assets/css/theme.css");
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}

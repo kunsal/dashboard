@@ -1,0 +1,19 @@
+main {
+  img {
+    width: 50px;
+    text-align: center
+  }
+
+  .nav-item {
+    padding-bottom: 30px;
+    a {
+      font-size: 15px;
+      color: #000000
+    }
+    .active {
+      color: #4527a0 !important;
+      font-weight: bold;
+    }
+  }
+
+}

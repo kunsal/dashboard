@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pwcdashboard';
+  appTitle = 'PWC Dashboard';
+
+  ngOnInit() {
+
+  }
+
 }

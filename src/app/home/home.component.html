@@ -1,0 +1,55 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <ul class="nav">
+              <h2 class="nav-brand">Dashboard</h2>
+              <span class="mx-auto">
+              </span>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Search <i class="fa fa-search"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa fa-bell"></i></a>
+                </li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <table class="table">
+            <tr>
+              <th>Project</th>
+              <th>Unit</th>
+              <th>Manager</th>
+              <th>Staff Strength</th>
+            </tr>
+
+            <tr *ngFor="let project of projects">
+              <td>{{ project.name }}</td>
+              <td>{{ project.unit }}</td>
+              <td>{{ project.manager }}</td>
+              <td>{{ project.staff }}</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-4 text-center stat">
+          <h5 class="title">Project Worked on by Unit</h5>
+          <div class="row">
+            <div class="col-md-4">
+                <h4>2</h4>
+                <p class="dept">Deep Consulting</p>
+            </div>
+            <div class="col-md-4">
+                <h4>3</h4>
+                <p class="dept">Business Analytics</p>
+            </div>
+            <div class="col-md-4">
+                <h4>1</h4>
+                <p class="dept">Artificial Data</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
